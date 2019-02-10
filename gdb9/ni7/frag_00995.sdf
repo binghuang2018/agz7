@@ -28,7 +28,7 @@ none
   6 12  1  0
   7 13  1  0
 M  END
->  <smiles_rdkit>  (1)
-NC=C(O)N=CO
+>  <smiles_oechem>  (1)
+C(=C(N=CO)O)N
 
 $$$$
