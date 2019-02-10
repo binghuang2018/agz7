@@ -27,3 +27,5 @@ none
   5 12  1  0
 M  CHG  2   4  -1   5   1
 M  END
+>  <smiles_oechem>  (1)
+C(C=C[O-])[NH3+]
