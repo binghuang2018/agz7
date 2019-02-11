@@ -14,6 +14,7 @@ For how-to on amons generation, go to https://github.com/binghuang2018/aqml
 # Notes on files/folders 
 - `ni5` indicates the subset of all amons containing **__only__** 5 heavy atoms
 - all files are of `SDF` format
+- SMILES string is appended to the end of each sdf file, canonicalized by OEChem.
 - all filenames are of format `frag_[[ID]]_optg.sdf`, with `ID` being a unique identity assigned to the associated molecular graph
 
 
