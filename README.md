@@ -1,5 +1,5 @@
 # agz7 dataset 
-Complete enumerations of amons with up to 7 heavy atoms for GDB7 and ZINC
+Complete enumerations of amons with up to 7 heavy atoms for GDB17 and ZINC
 
 For how-to on amons generation, go to https://github.com/binghuang2018/aqml
 
