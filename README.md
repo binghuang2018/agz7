@@ -1,7 +1,13 @@
 # agz7
 Amons with up to 7 heavy atoms for GDB7 and ZINC
 
-# Notes
+# Notes on files/folders 
+- `ni5` indicates the subset of all amons containing **__only__** 5 heavy atoms
+- all files are of `SDF` format
+- all filenames are of format `frag_[[ID]]_optg.sdf`, with `ID` being a unique identity assigned to the associated molecular graph
+
+
+# Notes on geometries
 - Each amon is accompanied with only one conformer
 - Each conformer corresponds to the lowest energy configuration, among all other local minimas.
 - The lowest energy conformers were determined through force-field (MMFF94)
