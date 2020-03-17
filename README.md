@@ -1,5 +1,6 @@
-# agz7
-Amons with up to 7 heavy atoms for GDB7 and ZINC
+# agz7 dataset
+Complete enumerations of amons with up to 7 heavy atoms for GDB7 and ZINC
+(For how-to on amons generation, go to https://github.com/binghuang2018/aqml)
 
 # Notes on files/folders 
 - `ni5` indicates the subset of all amons containing **__only__** 5 heavy atoms
