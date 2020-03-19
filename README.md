@@ -18,7 +18,7 @@ For how-to on amons generation, go to https://github.com/binghuang2018/aqml
   - `zinc.can`: SMILES strings that are unique to ZINC amons
 - Folders containing 3d geometries of amons
   - `gdb17` covers only a subset of the complete list of gdb17 amons (i.e., `comm.can`+`gdb17.can`), i.e., amons that survived geometry relaxation. 
-  - `zinc` covers only a subset of SMILES strings in `zinc.can`, which survived geometry relaxation.
+  - `zinc` covers only a subset of SMILES strings in `zinc.can`, that is, amons that are unique to gdb17 and survived geometry relaxation.
 - Compressed tar files
   - Files in say, `ni5.tar.gz` indicates the subset of all amons containing **__only__** 5 heavy atoms
   - All files in any tar file are of `SDF` format, containing both 3d geometry and connectivity between atoms
