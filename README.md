@@ -13,12 +13,12 @@ For how-to on amons generation, go to https://github.com/binghuang2018/aqml
 
 # Notes on files/folders 
 - Files containing canonical SMILES string (canonicalized by OEChem)
-  - `gdb9.can`: The complete list of GDB9 amons (may overlap with the other files end with `.can`)
-  - `gdb17-zinc-comm.can`: SMILES strings that are shared by gdb17 & zinc amons
-  - `gdb17.can`: SMILES strings that are unique to gdb17 amons
-  - `zinc.can`: SMILES strings that are unique to ZINC amons
+  - `gdb9.can`: The complete list of SMILES strings of GDB9 amons (may overlap with the other files end with `.can`)
+  - `gdb17-zinc-comm.can`: SMILES strings of amons that are shared by gdb17 & zinc
+  - `gdb17.can`: SMILES strings of amons that are unique to gdb17
+  - `zinc.can`: SMILES strings of amons that are unique to ZINC
 - Folders containing 3d geometries of amons
-  - `gdb9` includes all amons of gdb9 dataset.
+  - `gdb9/` includes all amons of gdb9 dataset.
   - `gdb17/` covers the complete set of gdb17 amons (i.e., `gdb17-zinc-comm.can`+`gdb17.can`) that survived geometry relaxation. 
   - `zinc/` covers only a subset of SMILES strings in `zinc.can`, that is, amons that are unique to gdb17 and survived geometry relaxation.
 - Compressed tar files
