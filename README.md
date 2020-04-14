@@ -13,7 +13,7 @@ For how-to on amons generation, go to https://github.com/binghuang2018/aqml
 
 # Notes on files/folders 
 - Files containing canonical SMILES string (canonicalized by OEChem)
-  - `comm.can`: SMILES strings that are shared by gdb17 & zinc amons
+  - `comm-gdb17-zinc.can`: SMILES strings that are shared by gdb17 & zinc amons
   - `gdb17.can`: SMILES strings that are unique to gdb17 amons
   - `zinc.can`: SMILES strings that are unique to ZINC amons
 - Folders containing 3d geometries of amons
