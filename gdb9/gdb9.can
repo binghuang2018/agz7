@@ -1483,7 +1483,7 @@ C(=N#N)N(=O)=O
 C(=N#N)N=C(N)O
 C(=N#N)N=CO
 C(=N#N)N=N
-C(=N#N)N=N=N
+C(=N#N)N=N#N
 C(=N#N)N=NN
 C(=N#N)NC(=N)N
 C(=N#N)NC(=N)O
