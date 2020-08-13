@@ -5,15 +5,17 @@ For how-to on amons generation, go to https://github.com/binghuang2018/aqml
 
 # Features
 - A wide coverage of organic chemistry, including H, B, C, N, O, F, Si, S, P, Cl, Br, I, Sn
-- Amons under both subfolders together can be used as a training set in QML for quantum chemistry problems related to organic molecules
+- AGZ7 could be easily extended by inclusion of more accurate properties and/or all conformers, thanks to the small molecular size of AMON (no more than 7
+non-hydrogen atoms)
+- AGZ7 as a whole can be used as a training set in QML (in particular deep neural network) for quantum chemistry problems involving organic molecules
   - quantum properties prediction
   - geometry optimization
   - molecular dynamics 
   - ...
 
 # Notes on files/folders 
-- Files containing canonical SMILES string (canonicalized by OEChem)
-  - `gdb9.can`: The complete list of SMILES strings of GDB9 amons (may overlap with the other files end with `.can`)
+- Files containing SMILES string (canonicalized by OEChem)
+  - `gdb9/gdb9.can`: The complete list of SMILES strings of GDB9 amons (may overlap with the other files end with `.can`)
   - `gdb17-zinc-comm.can`: SMILES strings of amons that are shared by gdb17 & zinc
   - `gdb17.can`: SMILES strings of amons that are unique to gdb17
   - `zinc.can`: SMILES strings of amons that are unique to ZINC
