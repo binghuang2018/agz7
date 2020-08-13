@@ -7,7 +7,7 @@ For how-to on amons generation, go to https://github.com/binghuang2018/aqml
 - A wide coverage of organic chemistry, including H, B, C, N, O, F, Si, S, P, Cl, Br, I, Sn
 - AGZ7 could be easily extended by inclusion of more accurate properties and/or all conformers, thanks to the small molecular size of AMON (no more than 7
 non-hydrogen atoms)
-- AGZ7 as a whole can be used as a training set in QML (in particular deep neural network) for quantum chemistry problems involving organic molecules
+- AGZ7 can be used as a dictionary for the look-up of the most pertinent amons for a query, or the whole as a single training set for QML models (in particular deep neural network) for quantum chemistry problems involving organic molecules
   - quantum properties prediction
   - geometry optimization
   - molecular dynamics 
