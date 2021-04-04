@@ -59,7 +59,7 @@ bo = dt['bo'].reshape((na,na))
 | eigs             | MO energies                                    | in Hartree        |
 | omega            | harmonic frequencies                           | in cm^{-1}        |
 | omega0           | highest harmonic frequency                     | in cm^{-1}        |
-! ma               | atomic masses                                  | in Dalton         |
+| ma               | atomic masses                                  | in Dalton         |
 | fc               | force constants                                | in mDyne/Ang      |
 | mr               | reduce masses                                  | Dalton            |
 | ir               | IR intensity                                   | in km/mol         |
