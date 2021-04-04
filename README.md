@@ -23,8 +23,8 @@ non-hydrogen atoms)
   - `zinc/` covers only a subset of SMILES strings in `zinc.can`, that is, amons that are unique to gdb17 and survived geometry relaxation.
 - Compressed tar files
   - Files in say, `zinc/ni5.tar.gz` indicates the subset of all ZINC amons containing **__only__** 5 heavy atoms
-  - Geometry and prperties of each AMON are stored as `key:value` pair in a `json` file (see `zinc/README.md` for content details), except for AMONs that didn't survive geometry optimization (i.e., dissociated), for which only `xyz` file is provided.
-  - SMILES string (canonicalized by OEChem) & bond order matrix are both available in json file for all but dissociated AMONs
+  - Geometry and prperties of each AMON are stored as `key:value` pair in a `json` file (see `zinc/README.md` for content details), except for AMONs that didn't survive geometry optimization (i.e., dissociated), for which only `xyz` file is provided in subfolder `diss/`.
+  - SMILES string (canonicalized by OEChem) & bond order matrix are both available in json file for all but AMONs that underwent graph changes, including dissociated AMONs and undissociated ones (in subfolder `newg/` or compressed file `newg.tar.gz`).
   - The name of a json file is of format `[[ID]].json`, with `ID` being a unique identity assigned to the associated molecular graph
 
 
