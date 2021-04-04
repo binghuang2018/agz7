@@ -2,7 +2,7 @@
 
 ## Loading data
 
-To read all data for an AMON, say `ni1/AG7_00001.json`, do this
+To read all data for an AMON, say `ni1/AZ7_00001.json`, do this
 
 ```python
 import json
@@ -29,9 +29,9 @@ bo = dt['bo'].reshape((na,na))
 ```
 
 
-## Notes
+## `key:value` pairs in `json` file
 
-| Label            | Property                                       | Note              |
+| Key              | Property                                       | Note              |
 |------------------|------------------------------------------------|-------------------|
 | id               | molecular identity                             | e.g., AZ7_00001   |
 | zs               | a list of nuclear charges                      |                   |
@@ -67,8 +67,8 @@ bo = dt['bo'].reshape((na,na))
 | A,B,C            | rotational constants                           | in GHz            |
 | alpha            | isotropic polarizability                       | in Bohr^3         |
 | alpha_{ab}       | polarizability components                      | in Bohr^3         |
-! P                | pressure                                       | in atm            |
-! T                | temperature                                    | in Kelvin (K)     |
+| P                | pressure                                       | in atm            |
+| T                | temperature                                    | in Kelvin (K)     |
 | zpe              | zero point energy                              | in Hartree        |
 | U0               | internal energy at 0 K                         | in Hartree        |
 | U                | internal energy at 298.15 K                    | in Hartree        |
