@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/247919768.svg)](https://zenodo.org/badge/latestdoi/247919768)
+
 # agz7 dataset
 Complete enumerations of amons with up to 7 heavy atoms for GDB17 and ZINC
 
