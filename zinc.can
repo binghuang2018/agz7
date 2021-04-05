@@ -14119,7 +14119,7 @@ C1(=S)NN1
 C1=SNN=C1N=N
 C1=SNN=N1
 C1(=S)NNNO1
-C1(=S)N[P]N1
+C1(=S)[nH][pH][nH]1
 C1=SN=S=C1
 C1=S(=O)NS(=C1)=O
 CBr
@@ -70548,8 +70548,8 @@ Cn1c(=S)[nH]cn1
 Cn1c(=S)[nH]nn1
 Cn1c(=S)[nH]p1N
 Cn1c(=S)nn[nH]1
-CN1C(=S)N[P]1
-CN1C(=S)N([P]1)C
+Cn1c(=S)[nH][pH]1
+Cn1c(=S)n([pH]1)C
 Cn1c(=S)ocn1
 Cn1c(=S)scn1
 CN1C(=S)SCN1
